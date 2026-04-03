@@ -26,7 +26,7 @@ It is strongly recommended to:
 ## Installation
 
 ##### System requirements:
-* PHP >= __7.2__ (old versions supports __5.4+__)
+* PHP >= __8.2__
 * php-curl
 * php-mbstring
 * Open port __43__ in firewall
@@ -45,7 +45,7 @@ composer require xternalsoft/php-whois
 or composer.json:
 ````
 "require": {
-    "xternalsoft/php-whois": "^4.0"
+    "xternalsoft/php-whois": "^1.0"
 }
 ````
 
