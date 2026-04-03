@@ -5,7 +5,7 @@
 
 PHP WHOIS client implementation. Sends the queries directly to the WHOIS services.
 
-> **Project Origin**: This project is a maintained fork of [xternalsoft/php-whois](https://github.com/xternalsoft/php-whois). 
+> **Project Origin**: This project is a maintained fork of [io-developer/php-whois](https://github.com/io-developer/php-whois). 
 > This version (`1.0.0`) is based on the original version `4.1.10`.
 
 ## ⚠️ Important: Rate Limiting & IP Blocking
