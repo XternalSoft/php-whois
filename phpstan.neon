@@ -1,0 +1,30 @@
+parameters:
+    level: 5
+
+
+    paths:
+        - src
+    bootstrapFiles:
+        - vendor/autoload.php
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        -
+            message: '#Offset .children. on array\{line: mixed, children: array\{\}\} in empty\(\) always exists and is always falsy\.#'
+            path: src/Xternalsoft/Whois/Helpers/ParserHelper.php
+        -
+            message: '#Result of && is always false\.#'
+            path: src/Xternalsoft/Whois/Helpers/ParserHelper.php
+        -
+            message: '#Parameter \#2 \$biasIndentFn of static method Xternalsoft\\Whois\\Helpers\\ParserHelper::blockToIndentedNodes\(\) expects \(callable\(\): mixed\)\|null, int.* given\.#'
+            path: src/Xternalsoft/Whois/Helpers/ParserHelper.php
+        -
+            message: '#Method .*::cloneMe\(\) should return \$this.* but returns static.*\.#'
+        -
+            message: '#Parameter \#2 \$outInfo of method .*::loadParsedTo\(\) expects .*, null given\.#'
+            path: src/Xternalsoft/Whois/Modules/Tld/TldModule.php
+        -
+            message: '#If condition is always true\.#'
+            path: src/Xternalsoft/Whois/Modules/Tld/TldModule.php
+        -
+            message: '#Ternary operator condition is always true\.#'
+            path: src/Xternalsoft/Whois/Modules/Tld/TldModule.php
