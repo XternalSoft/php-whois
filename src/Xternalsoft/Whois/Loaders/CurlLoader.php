@@ -102,7 +102,6 @@ class CurlLoader implements ILoader
         $result = curl_exec($curl);
         $errstr = curl_error($curl);
         $errno = curl_errno($curl);
-        curl_close($curl);
         fclose($input);
 
         if ($result === false) {
