@@ -1,6 +1,5 @@
 {
     "name": "xternalsoft/php-whois",
-    "version": "1.0.2",
     "description": "PHP WHOIS provides parsed and raw whois lookup of domains and ASN routes. Based on io-developer/php-whois v4.1.10.",
     "keywords": [
         "php",
